@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 GEOCODING_API_URL = "http://api.openweathermap.org/geo/1.0/direct"
 GEOCODING_API_ZIP_URL = "http://api.openweathermap.org/geo/1.0/zip"
-GEOCODING_API_KEY = "9bdf4a798991a53dd53450033c37ea70"
+GEOCODING_API_KEY = ""
 LOCODE_DATA_URL = "https://raw.githubusercontent.com/datasets/un-locode/master/data/code-list.csv"
 
 cache = TTLCache(maxsize=100, ttl=600)
